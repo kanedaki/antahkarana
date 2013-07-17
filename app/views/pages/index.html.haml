@@ -1,0 +1,88 @@
+<!doctype html>
+%html
+  %head
+    %title Antahkarana
+    %meta{:charset => "utf-8"}/
+    %meta{:content => "IE=edge,chrome=1", "http-equiv" => "X-UA-Compatible"}/
+    %meta{:content => "width=device-width", :name => "viewport"}/
+    %meta{:content => "Antahkarana", :property => "og:title"}/
+    %meta{:content => "Antahkarana", :property => "og:site_name"}/
+    %meta{:content => "Antahkarana", :name => "description"}/
+    %meta{:content => "http://hull.io", :property => "og:url"}/
+    %meta{:content => "/assets/logo.png", :property => "og:image"}/
+    %link{:href => "assets/images/favicon.ico", :rel => "icon", :type => "image/ico"}/
+    = stylesheet_link_tag "application"
+  %body
+    .header
+      #particles
+      .hero-unit
+        .logo-block
+          .row-fluid
+            .span4.logo
+              %img{:src => "assets/logo.png"}/
+            .span8
+              %h2.title
+                El camino de la transformación hacia una vida más consciente y feliz
+        %a.button{:href => "#what"} Que es Antahkarana
+        %a.button{:href => "#how"} Que hacemos
+        %a.button.faded{:href => "#contact"} Contacto
+    %section.container.introduction
+      %header.row
+        .span3.offset1
+          #sidenav.nav-container
+            %ul.nav.nav-list
+              %li.level_1
+                %a{:href => "#antahkarana"} Antahkarana
+                %ul.nav.nav-list
+                  %li.level_2
+                    %a{:href => "#what"} Que hacemos
+                  %li.level_2
+                    %a{:href => "#how"} Como lo hacemos
+                  %li.level_2
+                    %a{:href => "#who"} Quien lo dirige
+              %li.level_1
+                %a{:href => "#contact"} Contacto
+        .span6
+          %section#antahkarana
+            %h1 Antahkarana
+            %p
+              Antahkarana es un profundo trabajo de práctica continuada, en cursos y de manera individual, que irá desarrollando la intuición y la consciencia y creará un proceso estable de crecimiento espiritual.
+              
+              Tras un proceso gradual repartido en diferentes módulos, Katarzyna Walarowska, guiará el camino de atención y transformación que nos ayude a liberar los archivos o memorias que nos limitan. Nos expondrá un amplio abanico de técnicas que desarrolladas con rigor, abrirán nuestras puertas a una nueva forma de vivir.
+          %section#what
+            %h2 Que hacemos
+            %p Explanation...
+          %section#how
+            %h2 Cómo lo hacemos
+            %h3 Curso
+            %ul
+              %li Anatomía energética.- Exploración y reconocimiento del campo energético humano. Teoría y práctica.
+              %li Filosofía y psicología energética.- Relaciones entre la energía, las emociones y la mente.
+              %li Meditación e introspección.- Descubriendo un espacio neutro de atención como punto de partida.
+              %li Autoconocimiento, consciencia.-  Observación de nuestros patrones de conducta sin identificarnos con ellos. La visión sin juicio abre las puertas al crecimiento.
+              %li Práctica continua de los conocimientos desarrollados durante el curso, que nos permitirán ampliar nuestra percepción sobre el campo energético.
+              %li Integración de los conocimientos energéticos en la vida cotidiana para vivir una vida con más felicidad, paz y amor (creación de cambios positivos).
+              %li Interacción con la energía de grupo. La relación entre nuestro campo y el del grupo como guía y apoyo energético.
+            %p
+          %section#who
+            %h2 Quien lo imparte
+            %p Experta en Terapias Energéticas, con más de 15 años de experiencia, es diplomada en Medicina Tradicional China, Esoteric Healing, Choa Kok Shui, terapia floral, entre otras técnicas terapéuticas.
+            %p Es co-fundadora de Shen Centros de Equilibrio y Salud, centro multidisciplinar, dedicado a la salud y el bienestar integral.
+          %section#contact
+            %h2 Contacto
+            %p Si quieres contactarnos para resolver cualquier duda, puedes hacerlo a través de contacto@she-ces.es
+    %footer
+      %section.container
+        .row
+          .span2.offset1
+            %ul.unstyled
+              %li © 2013 Antahkarana
+              %li License : MIT
+          .span6.offset1
+            %p
+              %strong
+                Antahkarana es el trabajo de Katarzyna Walarowska
+            %p
+              %a{:href => "http://hull.io"} Design by hull.io
+              %a{:href => "http://redradix.com"} Adaptation by redradix.com
+    //= javascript_include_tag "application"
